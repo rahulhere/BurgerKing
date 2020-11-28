@@ -1,0 +1,23 @@
+.SideDrawerToggle {
+  height: 80%;
+  width: 50px;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: transparent;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+}
+
+.SideDrawerToggle > div {
+  height: 15%;
+  width: 80%;
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+
+@media (min-width: 600px) {
+  .SideDrawerToggle {
+    display: none;
+  }
+}

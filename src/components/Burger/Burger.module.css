@@ -1,0 +1,59 @@
+.Burger {
+  display: flex;
+  flex-flow: column nowrap;
+  overflow: auto;
+  height: 330px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.Burger > div:first-child {
+  margin-top: auto;
+}
+
+.Burger > div:last-child {
+  margin-bottom: auto;
+}
+
+.Burger > div {
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: fixed;
+}
+
+.Burger {
+  scrollbar-width: 2px;
+  scrollbar-color: grey;
+}
+
+.Burger::-webkit-scrollbar {
+  width: 3px;
+}
+
+.Burger::-webkit-scrollbar-thumb {
+  background: rgb(104, 85, 85);
+  border-radius: 3px;
+}
+
+.Burger::-webkit-scrollbar-track {
+  background: rgb(175, 175, 243);
+}
+
+@media (min-width: 630px) {
+  .Burger {
+    width: 90%;
+  }
+}
+
+@media (min-width: 860px) {
+  .Burger {
+    width: 700px;
+    height: 300px;
+  }
+}

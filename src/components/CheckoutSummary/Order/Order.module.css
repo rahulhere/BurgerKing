@@ -1,0 +1,11 @@
+.Order {
+  width: 90%;
+  box-shadow: 1px 1px 5px 0px black;
+  box-sizing: border-box;
+  margin: 0.8rem auto;
+  padding: 0.6rem 1rem;
+}
+
+.Order p {
+  margin: 6px auto;
+}
